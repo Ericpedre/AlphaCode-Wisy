@@ -6,6 +6,7 @@
 ### Pre-requisitos 📋
 
 _Tener pyton3.x instalado_
+
 _Sistema operativo Windows_
 
 ### Instalación 🔧
@@ -16,6 +17,9 @@ _Clonar repositorio:_
 
 ```
 git clone https://github.com/Ericpedre/AlphaCode-Wisy.git
+```
+```
+cd AlphaCode-Wisy
 ```
 
 _Para ejecutarlo abre el archivo AlphaCode.py_
