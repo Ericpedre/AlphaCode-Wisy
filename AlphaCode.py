@@ -21,6 +21,7 @@ def clearScreen():
 def lasted(elem):
     return int(elem[7])
 
+# find related areas
 def relatedAreas(word, datain):
     areas = []
     a = []
@@ -45,6 +46,7 @@ banner()
 
 Input = input('Describe, in one word, the type of person to whom marketing is directed: \nExample: developer\n>')
 
+# Open files to read
 data = []
 with open('people.in', 'r') as file:
     data1 = file.read().split('\n')
@@ -55,6 +57,7 @@ with open('Learn.txt', 'r') as learnfile:
     learn = learnfile.read()  
 rows = learn.split('\n')
 
+# converting str to list
 set_learn = []
 for row in rows:
     if row != '':
@@ -69,6 +72,7 @@ for row in rows:
         seld.append(nWords)
 
         set_learn.append(seld)
+
 
 pre_out = []
 for row in set_learn:
