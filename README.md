@@ -47,4 +47,4 @@ o
 python3 AlphaTraining.py
 ```
 
-⌨️ con ❤️ por [EricPedreschi](https://github.com/EricPedre) 😊
+⌨️ Por [EricPedreschi](https://github.com/EricPedre)
