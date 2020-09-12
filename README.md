@@ -1,5 +1,11 @@
 # AlphaCode-Wisy 🚀
 
+Código que dado un archivo de entrada “people.in” con Datos públicos de LinkedIn, encuentra a las 100 personas con mayor probabilidad de convertirse en clientes de una empresa x, mediante el envío de una campaña de marketing por correo electrónico, los IDs de los usuarios se guardan en “people.out”.
+
+# ¿Cómo funciona?
+
+El algoritmo principal “AlphaCode.py” fue previamente “entrenado” con el algoritmo “AlphaTraining.py” que busca palabras asociadas entre sí y las guarda en el archivo “Learn.txt”
+Posteriormente el archivo es utilizado por el algoritmo principal para asociar la “la palabra que describe  el tipo de persona a la que va dirigido el marketing” (Ingresada por el usuario) con una categoría y luego las palabras en esa categoría con clientes cuyo “CurrenRole” o “Industry” coincida, finalmente ordena los resultados poniendo a las personas con mayor número de conexiones ya que esas personas podrían ser más activas, escoje las 100 primeras y las graba en el archivo “people.out”
 
 
 
