@@ -119,6 +119,6 @@ out.sort(key=lasted, reverse=True)
 with open('people.out', 'w') as out_file:
     i = 0
     while i < 100:
-        out_file.write(str(row[0]) + '\n')
+        out_file.write(str(out[i][0]) + '\n')
         i += 1
 print('Ids of 100 prospects saved in ./people.out')
